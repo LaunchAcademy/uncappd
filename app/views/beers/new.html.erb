@@ -1,0 +1,7 @@
+<%= simple_form_for @beer do |f| %>
+  <%= f.input :name, wrapper_html: { class: "something" } %>
+  <%= f.input :style%>
+  <%= f.input :description, as: :text %>
+  <%= f.input :rating %>
+  <%= f.button :submit %>
+<% end %>
