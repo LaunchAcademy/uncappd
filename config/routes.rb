@@ -1,4 +1,4 @@
-Uncapped::Application.routes.draw do
+Uncappd::Application.routes.draw do
   devise_for :users
 
   resources :beers, only: [:index, :new, :create]

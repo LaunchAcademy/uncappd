@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Uncapped::Application.load_tasks
+Uncappd::Application.load_tasks

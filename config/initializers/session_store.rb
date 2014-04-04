@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Uncapped::Application.config.session_store :cookie_store, key: '_uncapped_session'
+Uncappd::Application.config.session_store :cookie_store, key: '_uncapped_session'
